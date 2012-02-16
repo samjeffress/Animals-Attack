@@ -1,1 +1,10 @@
-*.ReSharper.user/*.dotCover/_ReSharper.*
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+*.suo
+
+_ReSharper*/
+*.resharper
+*.dotCover
+[Tt]est[Rr]esult*
+
