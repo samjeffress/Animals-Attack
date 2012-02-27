@@ -72,8 +72,8 @@ namespace Web
             if (DocumentStore != null) return; // prevent misuse
 
             DocumentStore = new DocumentStore
-            { 
-                Url = ConfigurationManager.ConnectionStrings["RavenDb"].ConnectionString
+            {
+                Url = ConfigurationManager.AppSettings["RAVENHQ_CONNECTION_STRING"].ConnectionString
             }.Initialize();
         }
 
