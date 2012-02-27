@@ -25,7 +25,8 @@ namespace Web.Controllers
             return View("Edit", animal);
         }
 
-        [HttpPost, ValidateInput(false)]
+        [HttpPost]
+        //[ValidateInput(false)]
         public ActionResult Edit(FormCollection collection)
         {
             var name = collection["Name"];

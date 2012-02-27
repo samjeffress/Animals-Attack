@@ -73,7 +73,7 @@ namespace Web
 
             DocumentStore = new DocumentStore
             {
-                Url = ConfigurationManager.AppSettings["RAVENHQ_CONNECTION_STRING"].ConnectionString
+                Url = ConfigurationManager.AppSettings["RAVENHQ_CONNECTION_STRING"]
             }.Initialize();
         }
 
