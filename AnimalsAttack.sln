@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalsAttack", "AnimalsAttack\AnimalsAttack.csproj", "{DF9C1427-539D-46A8-B248-D93C20F6001D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{EF63DDD1-B3F4-4F08-8855-2C135BA417E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{3FFF3458-8612-4D11-BEFE-466B8E9F5692}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{DF9C1427-539D-46A8-B248-D93C20F6001D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF9C1427-539D-46A8-B248-D93C20F6001D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF9C1427-539D-46A8-B248-D93C20F6001D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF63DDD1-B3F4-4F08-8855-2C135BA417E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF63DDD1-B3F4-4F08-8855-2C135BA417E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF63DDD1-B3F4-4F08-8855-2C135BA417E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF63DDD1-B3F4-4F08-8855-2C135BA417E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFF3458-8612-4D11-BEFE-466B8E9F5692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFF3458-8612-4D11-BEFE-466B8E9F5692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFF3458-8612-4D11-BEFE-466B8E9F5692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFF3458-8612-4D11-BEFE-466B8E9F5692}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

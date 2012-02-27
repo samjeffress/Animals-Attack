@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Models.Animal>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<table>
+<thead><tr><th>Name</th><th>Location</th><th>Image</th><th>Actions</th></tr></thead>
+<tbody>
+@foreach (var animal in Model)
+{ 
+    <tr>
+        <td>@animal.Name</td>
+        <td>@animal.Habitat</td>
+        <td>@Html.Raw(animal.ImageAddress)</td>
+        <td>@Html.ActionLink("Edit", "Edit", new { animal.Name })</td>
+    </tr>
+}
+</tbody>
+</table>

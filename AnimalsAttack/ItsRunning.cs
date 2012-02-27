@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using Models;
 using Raven.Client.Linq;
 
 namespace AnimalsAttack
