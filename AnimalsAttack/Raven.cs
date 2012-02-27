@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Models;
+using Raven.Abstractions.Data;
 using Raven.Client.Document;
 using Raven.Client.Indexes;
 
@@ -9,10 +10,16 @@ namespace AnimalsAttack
     {
         public Raven()
         {
-            DocumentStore = new DocumentStore { Url = "http://localhost:8080" };
+            var parser = ConnectionStringParser<RavenConnectionStringOptions>.FromConnectionStringName("RavenDB");
+            parser.Parse();
+            DocumentStore = new DocumentStore
+                                {
+                                    ApiKey = parser.ConnectionStringOptions.ApiKey,
+                                    Url = parser.ConnectionStringOptions.Url,
+                                };
             DocumentStore.Initialize();
-            IndexCreation.CreateIndexes(typeof(AnimalsAndVehicles).Assembly, DocumentStore);
             LoadData();
+            IndexCreation.CreateIndexes(typeof(AnimalsAndVehicles).Assembly, DocumentStore);
         }
 
         public DocumentStore DocumentStore { get; set; }

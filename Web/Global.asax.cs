@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Raven.Abstractions.Data;
 using Raven.Client;
 using Raven.Client.Document;
 using Web.Controllers;
@@ -68,12 +69,14 @@ namespace Web
 
         private static void InitializeDocumentStore()
         {
-
             if (DocumentStore != null) return; // prevent misuse
 
+            var parser = ConnectionStringParser<RavenConnectionStringOptions>.FromConnectionStringName("RavenDB");
+            parser.Parse();
             DocumentStore = new DocumentStore
             {
-                Url = ConfigurationManager.AppSettings["RAVENHQ_CONNECTION_STRING"]
+                ApiKey = parser.ConnectionStringOptions.ApiKey,
+                Url = parser.ConnectionStringOptions.Url,
             }.Initialize();
         }
 
