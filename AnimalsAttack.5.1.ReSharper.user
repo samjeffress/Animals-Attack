@@ -8,26 +8,21 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="443" fromTop="15" />
-      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:ItsRunning.cs" caret="491" fromTop="16" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/f:Web.config" caret="1166" fromTop="17" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="427" fromTop="16" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Edit.cshtml" caret="1031" fromTop="0" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:RavenController.cs" caret="137" fromTop="6" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1179" fromTop="18" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Web.config" caret="426" fromTop="14" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:AnimalsAndVehicles.cs" caret="110" fromTop="4" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Vehicle.cs" caret="14" fromTop="0" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="274" fromTop="14" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2294" fromTop="13" />
+      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:App.config" caret="158" fromTop="3" />
+      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:ItsRunning.cs" caret="293" fromTop="12" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Web.config" caret="493" fromTop="14" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:RavenController.cs" caret="0" fromTop="0" />
+      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="237" fromTop="12" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2158" fromTop="44" />
     </RecentFiles>
     <RecentEdits>
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="0" fromTop="0" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="325" fromTop="13" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="18" fromTop="0" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="174" fromTop="8" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="427" fromTop="16" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Edit.cshtml" caret="1701" fromTop="11" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1196" fromTop="36" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="820" fromTop="20" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1186" fromTop="23" />
@@ -39,19 +34,25 @@
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="628" fromTop="23" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1205" fromTop="19" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1179" fromTop="18" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="501" fromTop="15" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="1740" fromTop="33" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="1138" fromTop="32" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2477" fromTop="36" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2481" fromTop="30" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2486" fromTop="30" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2058" fromTop="17" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Web.config" caret="426" fromTop="14" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2294" fromTop="13" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="533" fromTop="15" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="1772" fromTop="33" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="1170" fromTop="32" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2691" fromTop="36" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2695" fromTop="30" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2090" fromTop="17" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="39" fromTop="0" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="274" fromTop="14" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:AnimalsAndVehicles.cs" caret="110" fromTop="4" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Vehicle.cs" caret="14" fromTop="0" />
+      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="835" fromTop="16" />
+      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="547" fromTop="16" />
+      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:App.config" caret="158" fromTop="3" />
+      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="339" fromTop="12" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Web.config" caret="491" fromTop="15" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Web.config" caret="374" fromTop="11" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2697" fromTop="54" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2286" fromTop="48" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2583" fromTop="54" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
