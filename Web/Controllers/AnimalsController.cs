@@ -26,14 +26,18 @@ namespace Web.Controllers
         }
 
         [HttpPost]
-        //[ValidateInput(false)]
+        [ValidateInput(false)]
+        [ValidateAntiForgeryToken]
         public ActionResult Edit(FormCollection collection)
         {
             var name = collection["Name"];
             
             var animal = RavenSession.Load<Animal>(name);
-            animal.TopSpeed = Convert.ToInt32(collection["TopSpeed"]);
-            animal.ImageAddress = Server.HtmlEncode(collection["ImageAddress"]);
+            //if (TryUpdateModel(animal, collection))
+            //    throw new ArgumentException("Bad input");
+            var topSpeed = collection["TopSpeed"];
+            animal.TopSpeed = Convert.ToInt32(topSpeed);
+            animal.ImageAddress = collection["ImageAddress"];
             return Index();
         }
     }
