@@ -12,28 +12,19 @@
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:RavenController.cs" caret="137" fromTop="6" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:AnimalsAndVehicles.cs" caret="110" fromTop="4" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Vehicle.cs" caret="14" fromTop="0" />
-      <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="274" fromTop="14" />
       <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="391" fromTop="13" />
       <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:ItsRunning.cs" caret="293" fromTop="12" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="25" fromTop="0" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Edit.cshtml" caret="13" fromTop="0" />
+      <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="63" fromTop="4" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="426" fromTop="16" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/f:_ViewStart.cshtml" caret="8" fromTop="1" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="889" fromTop="12" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Web.config" caret="1149" fromTop="22" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2354" fromTop="13" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="762" fromTop="14" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Edit.cshtml" caret="379" fromTop="13" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:HomeController.cs" caret="175" fromTop="8" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="1454" fromTop="21" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Home/f:Index.cshtml" caret="184" fromTop="5" />
     </RecentFiles>
     <RecentEdits>
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1158" fromTop="36" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="749" fromTop="20" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1148" fromTop="23" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1141" fromTop="22" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1176" fromTop="17" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="479" fromTop="19" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="578" fromTop="23" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1167" fromTop="19" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1141" fromTop="18" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="501" fromTop="15" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="1740" fromTop="33" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="1138" fromTop="32" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2471" fromTop="36" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2475" fromTop="30" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2480" fromTop="30" />
@@ -51,7 +42,19 @@
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Web.config" caret="462" fromTop="14" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Web.config" caret="462" fromTop="13" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2354" fromTop="13" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="762" fromTop="14" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="195" fromTop="9" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Edit.cshtml" caret="379" fromTop="13" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="782" fromTop="28" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="319" fromTop="15" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1322" fromTop="19" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1317" fromTop="18" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:HomeController.cs" caret="108" fromTop="6" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:HomeController.cs" caret="195" fromTop="10" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="1626" fromTop="25" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="1454" fromTop="21" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Home/f:Index.cshtml" caret="579" fromTop="12" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Home/f:Index.cshtml" caret="184" fromTop="5" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -73,18 +76,18 @@
       <Item value="Animal`0" priority="4" />
       <Item value="a" priority="1" />
       <Item value="return" priority="2" />
-      <Item value="View`0" priority="1" />
+      <Item value="View`0" priority="2" />
       <Item value="animals" priority="0" />
       <Item value="public" priority="3" />
       <Item value="ActionResult`0" priority="2" />
       <Item value="var" priority="1" />
       <Item value="new" priority="1" />
       <Item value="HttpPost" priority="0" />
-      <Item value="animal" priority="3" />
+      <Item value="animal" priority="4" />
       <Item value="UpdateModel`1" priority="0" />
-      <Item value="Index`0" priority="0" />
+      <Item value="Index`0" priority="1" />
       <Item value="FormCollection`0" priority="0" />
-      <Item value="collection" priority="3" />
+      <Item value="collection" priority="4" />
       <Item value="Server" priority="0" />
       <Item value="AllowHtml" priority="0" />
       <Item value="ValidateInput" priority="1" />
@@ -100,6 +103,11 @@
       <Item value="ConnectionStringName" priority="0" />
       <Item value="Url" priority="0" />
       <Item value="false" priority="0" />
+      <Item value="ValidateAntiForgeryToken" priority="0" />
+      <Item value="TryUpdateModel`1" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="ArgumentException`0" priority="0" />
+      <Item value="routes" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:AnimalsAttack.Raven">
       <Item value="DocumentStore" priority="0" />
@@ -138,6 +146,9 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettings">
       <Item value="ConnectionString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Routing.RouteCollection">
+      <Item value="MapRoute`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
