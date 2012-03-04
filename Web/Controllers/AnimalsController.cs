@@ -11,10 +11,18 @@ namespace Web.Controllers
     {
         public ActionResult Index()
         {
-            IEnumerable<Animal> animals = RavenSession.Query<Animal>()
-                .Where(a => a.Status == "Living")
-                .ToList();
-            return View("Index", animals);
+            try
+            {
+                IEnumerable<Animal> animals = RavenSession.Query<Animal>()
+                    .Where(a => a.Status == "Living")
+                    .ToList();
+                return View("Index", animals);
+            }
+            catch(Exception e)
+            {
+                ViewBag.ErrorMessage = e.Message;
+                return View("Error");
+            }
         }
 
         public ActionResult Edit(string name)

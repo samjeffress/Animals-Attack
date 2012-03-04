@@ -11,5 +11,10 @@
     <h2>
         Sorry, an error occurred while processing your request.
     </h2>
+    <h3>
+        @if (ViewBag.ErrorMessage != null){
+            ViewBag.ErrorMessage;
+        }
+    </h3>
 </body>
 </html>
