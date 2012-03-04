@@ -8,3 +8,6 @@ _ReSharper*/
 *.dotCover
 [Tt]est[Rr]esult*
 
+#database getup
+*.mdf
+*.ldf

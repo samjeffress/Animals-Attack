@@ -8,6 +8,7 @@ using System.Web.Routing;
 using Raven.Client;
 using Raven.Client.Document;
 using Web.Controllers;
+using Web.Helpers;
 
 namespace Web
 {
@@ -39,7 +40,8 @@ namespace Web
 
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new HandleErrorAttribute());
+            //filters.Add(new HandleErrorAttribute());
+            filters.Add(new LogonAuthorize());
         }
 
         public static void RegisterRoutes(RouteCollection routes)

@@ -10,19 +10,19 @@
     <RecentFiles>
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/f:Web.config" caret="1166" fromTop="17" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:RavenController.cs" caret="137" fromTop="6" />
-      <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:AnimalsAndVehicles.cs" caret="110" fromTop="4" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Vehicle.cs" caret="14" fromTop="0" />
-      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="391" fromTop="13" />
       <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:ItsRunning.cs" caret="293" fromTop="12" />
-      <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="63" fromTop="4" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="426" fromTop="16" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/f:_ViewStart.cshtml" caret="8" fromTop="1" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="889" fromTop="12" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Web.config" caret="1149" fromTop="22" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Edit.cshtml" caret="379" fromTop="13" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:HomeController.cs" caret="175" fromTop="8" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Home/f:Index.cshtml" caret="607" fromTop="13" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="1454" fromTop="21" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Home/f:Index.cshtml" caret="184" fromTop="5" />
+      <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="63" fromTop="4" />
+      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="391" fromTop="13" />
+      <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:AnimalsAndVehicles.cs" caret="292" fromTop="11" />
     </RecentFiles>
     <RecentEdits>
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2471" fromTop="36" />
