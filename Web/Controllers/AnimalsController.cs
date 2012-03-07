@@ -25,6 +25,30 @@ namespace Web.Controllers
             }
         }
 
+        public ActionResult Create()
+        {
+            return View("Create");
+        }
+
+        [HttpPost]
+        [ValidateInput(false)]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(FormCollection collection)
+        {
+            
+            var animal = new Animal();
+            //if (TryUpdateModel(animal, collection))
+            //    throw new ArgumentException("Bad input");
+            animal.Name = collection["Name"];
+            var topSpeed = collection["TopSpeed"];
+            animal.TopSpeed = Convert.ToInt32(topSpeed);
+            animal.Status = collection["Status"];
+            animal.Habitat = collection["Habitat"];
+            animal.ImageAddress = collection["ImageAddress"];
+            RavenSession.Store(animal, animal.Name);
+            return RedirectToAction("Index");
+        }
+
         public ActionResult Edit(string name)
         {
             var animal = RavenSession.Query<Animal>()
@@ -46,7 +70,7 @@ namespace Web.Controllers
             var topSpeed = collection["TopSpeed"];
             animal.TopSpeed = Convert.ToInt32(topSpeed);
             animal.ImageAddress = collection["ImageAddress"];
-            return Index();
+            return RedirectToAction("Index");
         }
     }
 }
