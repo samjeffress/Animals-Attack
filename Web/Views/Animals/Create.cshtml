@@ -28,7 +28,7 @@
             @Html.LabelFor(model => model.Habitat)
         </div>
         <div class="editor-field">
-            @Html.EditorFor(model => model.Habitat)
+            @Html.ListBoxFor(m => m.Habitat, ViewBag.Locations as MultiSelectList)
             @Html.ValidationMessageFor(model => model.Habitat)
         </div>
 

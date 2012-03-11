@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System.Collections.Generic;
+using System.Web.Mvc;
 
 namespace Models
 {
@@ -6,7 +7,7 @@ namespace Models
     {
         public string Name { get; set; }
 
-        public string Habitat { get; set; }
+        public List<string> Habitat { get; set; }
 
         public int TopSpeed { get; set; }
 

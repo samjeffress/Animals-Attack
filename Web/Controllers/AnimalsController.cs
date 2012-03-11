@@ -28,6 +28,7 @@ namespace Web.Controllers
         public ActionResult Create()
         {
             StatusOptionsViewBag();
+            LocationOptionsViewBag(null);
             return View("Create");
         }
 
@@ -44,7 +45,9 @@ namespace Web.Controllers
             var topSpeed = collection["TopSpeed"];
             animal.TopSpeed = Convert.ToInt32(topSpeed);
             animal.Status = collection["Status"];
-            animal.Habitat = collection["Habitat"];
+            //var s = collection["Habitat"];
+            //animal.Habitat = s.ToList();
+            //animal.Habitat = collection["Habitat"];
             animal.ImageAddress = collection["ImageAddress"];
             RavenSession.Store(animal, animal.Name);
             return RedirectToAction("Index");
@@ -52,10 +55,11 @@ namespace Web.Controllers
 
         public ActionResult Edit(string name)
         {
-            StatusOptionsViewBag();
             var animal = RavenSession.Query<Animal>()
                 .Where(a => a.Name == name)
                 .FirstOrDefault();
+            StatusOptionsViewBag();
+            LocationOptionsViewBag(animal.Habitat);
             return View("Edit", animal);
         }
 
@@ -73,7 +77,17 @@ namespace Web.Controllers
             animal.TopSpeed = Convert.ToInt32(topSpeed);
             animal.ImageAddress = collection["ImageAddress"];
             animal.Status = collection["Status"];
+            var habitat = collection["Habitat"];
+            animal.Habitat = ParseFromCsv(habitat);
             return RedirectToAction("Index");
+        }
+
+        private List<string> ParseFromCsv(string habitat)
+        {
+            if (habitat == null)
+                return new List<string>();
+            var collection = habitat.Split(',');
+            return new List<string>(collection);
         }
 
         private void StatusOptionsViewBag()
@@ -85,5 +99,23 @@ namespace Web.Controllers
                                     };
             ViewBag.StatusOptions = statusOptions;
         }
+
+        private void LocationOptionsViewBag(List<string> selectedItems)
+        {
+            var locations = new List<string> 
+            { 
+                "Ocean",
+                "Land", 
+            };
+
+            var locationList = selectedItems == null ? new MultiSelectList(locations) : new MultiSelectList(locations, selectedItems);
+            ViewBag.Locations = locationList;
+        }
+    }
+
+    public class LocationCheckBox
+    {
+        public string Name { get; set; }
+        public bool Checked { get; set; }
     }
 }

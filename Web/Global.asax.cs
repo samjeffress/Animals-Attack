@@ -67,6 +67,11 @@ namespace Web
             InitializeDocumentStore();
 
             RavenController.DocumentStore = DocumentStore;
+            var databaseStatistics = DocumentStore.DatabaseCommands.GetStatistics();
+            if (databaseStatistics.CountOfDocuments == 0)
+            {
+                AnimalsAttack.Raven.RavenDataLoader.LoadData(DocumentStore);
+            }
         }
 
         private static void InitializeDocumentStore()

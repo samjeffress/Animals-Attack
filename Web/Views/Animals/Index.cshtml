@@ -12,7 +12,11 @@
 { 
     <tr>
         <td>@animal.Name</td>
-        <td>@animal.Habitat</td>
+        <td>
+            @foreach (var ahabitat in animal.Habitat){
+                <p>@ahabitat</p>
+            }        
+        </td>
         <td>@Html.Raw(animal.ImageAddress)</td>
         <td>@Html.ActionLink("Edit", "Edit", new { animal.Name })</td>
     </tr>
