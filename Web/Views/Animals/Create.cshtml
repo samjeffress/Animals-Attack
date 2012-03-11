@@ -1,4 +1,5 @@
-﻿@model Models.Animal
+﻿
+@model Models.Animal
 
 @{
     ViewBag.Title = "Create";
@@ -43,7 +44,8 @@
             @Html.LabelFor(model => model.Status)
         </div>
         <div class="editor-field">
-            @Html.EditorFor(model => model.Status)
+            @Html.DropDownListFor(s => s.Status, ViewBag.StatusOptions as List<SelectListItem>)
+            @*@Html.EditorFor(model => model.Status)*@
             @Html.ValidationMessageFor(model => model.Status)
         </div>
 

@@ -27,6 +27,7 @@ namespace Web.Controllers
 
         public ActionResult Create()
         {
+            StatusOptionsViewBag();
             return View("Create");
         }
 
@@ -51,6 +52,7 @@ namespace Web.Controllers
 
         public ActionResult Edit(string name)
         {
+            StatusOptionsViewBag();
             var animal = RavenSession.Query<Animal>()
                 .Where(a => a.Name == name)
                 .FirstOrDefault();
@@ -70,7 +72,18 @@ namespace Web.Controllers
             var topSpeed = collection["TopSpeed"];
             animal.TopSpeed = Convert.ToInt32(topSpeed);
             animal.ImageAddress = collection["ImageAddress"];
+            animal.Status = collection["Status"];
             return RedirectToAction("Index");
+        }
+
+        private void StatusOptionsViewBag()
+        {
+            var statusOptions = new List<SelectListItem>
+                                    {
+                                        new SelectListItem {Text = "Living", Value = "Living"},
+                                        new SelectListItem {Text = "Extinct", Value = "Extinct"}
+                                    };
+            ViewBag.StatusOptions = statusOptions;
         }
     }
 }
