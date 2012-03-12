@@ -13,34 +13,28 @@
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AccountController.cs" caret="1988" fromTop="12" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Helpers/f:LogonAuthorize.asax.cs" caret="0" fromTop="0" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="185" fromTop="9" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Edit.cshtml" caret="1509" fromTop="22" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Create.cshtml" caret="944" fromTop="4" />
       <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:ItsRunning.cs" caret="0" fromTop="0" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Vehicle.cs" caret="162" fromTop="8" />
-      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="804" fromTop="18" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1736" fromTop="6" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2411" fromTop="19" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:RavenController.cs" caret="102" fromTop="5" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2258" fromTop="16" />
+      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="3677" fromTop="22" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="317" fromTop="15" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Create.cshtml" caret="930" fromTop="11" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AdminController.cs" caret="343" fromTop="0" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Edit.cshtml" caret="970" fromTop="16" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="2809" fromTop="17" />
     </RecentFiles>
     <RecentEdits>
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Create.cshtml" caret="2" fromTop="1" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Create.cshtml" caret="1525" fromTop="16" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1796" fromTop="17" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Edit.cshtml" caret="1509" fromTop="22" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="2077" fromTop="16" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1796" fromTop="7" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="3759" fromTop="12" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="874" fromTop="23" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="819" fromTop="13" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="185" fromTop="9" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1430" fromTop="13" />
       <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="568" fromTop="17" />
       <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="568" fromTop="13" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="3420" fromTop="12" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="2808" fromTop="4" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="3289" fromTop="9" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="3784" fromTop="12" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="3172" fromTop="4" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="3653" fromTop="9" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Create.cshtml" caret="944" fromTop="4" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="3277" fromTop="8" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="3556" fromTop="16" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="3641" fromTop="8" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="3920" fromTop="16" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="823" fromTop="13" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="2018" fromTop="13" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Vehicle.cs" caret="162" fromTop="8" />
@@ -49,6 +43,18 @@
       <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="471" fromTop="6" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2394" fromTop="18" />
       <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="675" fromTop="15" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AdminController.cs" caret="0" fromTop="0" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AdminController.cs" caret="331" fromTop="19" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AdminController.cs" caret="314" fromTop="12" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AdminController.cs" caret="391" fromTop="8" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AdminController.cs" caret="6205" fromTop="27" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AdminController.cs" caret="3311" fromTop="25" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AdminController.cs" caret="633" fromTop="6" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="317" fromTop="15" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Edit.cshtml" caret="970" fromTop="16" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="2785" fromTop="18" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="2961" fromTop="26" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="2959" fromTop="22" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -63,25 +69,25 @@
   </UnitTestRunnerNUnit>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="string" priority="10" />
+      <Item value="string" priority="11" />
       <Item value="ImageAddress" priority="2" />
       <Item value="raven" priority="0" />
       <Item value="session" priority="4" />
       <Item value="Animal`0" priority="5" />
       <Item value="a" priority="1" />
-      <Item value="return" priority="8" />
+      <Item value="return" priority="10" />
       <Item value="View`0" priority="7" />
       <Item value="animals" priority="0" />
       <Item value="public" priority="12" />
       <Item value="ActionResult`0" priority="6" />
-      <Item value="var" priority="3" />
-      <Item value="new" priority="15" />
+      <Item value="var" priority="4" />
+      <Item value="new" priority="22" />
       <Item value="HttpPost" priority="3" />
-      <Item value="animal" priority="11" />
+      <Item value="animal" priority="13" />
       <Item value="UpdateModel`1" priority="0" />
       <Item value="Index`0" priority="1" />
       <Item value="FormCollection`0" priority="2" />
-      <Item value="collection" priority="9" />
+      <Item value="collection" priority="11" />
       <Item value="Server" priority="0" />
       <Item value="AllowHtml" priority="0" />
       <Item value="ValidateInput" priority="1" />
@@ -91,8 +97,8 @@
       <Item value="RavenSession" priority="5" />
       <Item value="MvcApplication`0" priority="0" />
       <Item value="IDocumentStore`0" priority="0" />
-      <Item value="RavenController`0" priority="0" />
-      <Item value="DocumentStore" priority="5" />
+      <Item value="RavenController`0" priority="1" />
+      <Item value="DocumentStore" priority="10" />
       <Item value="DocumentStore`0" priority="2" />
       <Item value="ConnectionStringName" priority="0" />
       <Item value="Url" priority="0" />
@@ -106,7 +112,7 @@
       <Item value="static" priority="1" />
       <Item value="AuthorizeAttribute`0" priority="1" />
       <Item value="override" priority="0" />
-      <Item value="if" priority="2" />
+      <Item value="if" priority="4" />
       <Item value="filterContext" priority="0" />
       <Item value="is" priority="0" />
       <Item value="AttributeUsage" priority="0" />
@@ -127,10 +133,10 @@
       <Item value="ApiKey" priority="0" />
       <Item value="topSpeed" priority="0" />
       <Item value="Raven" priority="0" />
-      <Item value="RedirectToAction`0" priority="1" />
+      <Item value="RedirectToAction`0" priority="2" />
       <Item value="interface" priority="0" />
       <Item value="IList" priority="0" />
-      <Item value="List" priority="1" />
+      <Item value="List" priority="2" />
       <Item value="SelectListItem`0" priority="1" />
       <Item value="selectListItems" priority="1" />
       <Item value="SelectListItem" priority="2" />
@@ -149,12 +155,12 @@
       <Item value="b" priority="0" />
       <Item value="LocationOptionsViewBag`0" priority="0" />
       <Item value="s" priority="0" />
-      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="List&lt;string&gt;" priority="3" />
       <Item value="selectedLocations" priority="0" />
       <Item value="MultiSelectList`0" priority="2" />
       <Item value="MultiSelectList" priority="0" />
       <Item value="selectedItems" priority="1" />
-      <Item value="null" priority="0" />
+      <Item value="null" priority="1" />
       <Item value="PatchRequest" priority="1" />
       <Item value="Type" priority="0" />
       <Item value="PatchCommandType`0" priority="0" />
@@ -164,6 +170,12 @@
       <Item value="databaseStatistics" priority="0" />
       <Item value="AnimalsAttack" priority="0" />
       <Item value="Raven`0" priority="0" />
+      <Item value="IndexQuery" priority="0" />
+      <Item value="IndexDefinition" priority="0" />
+      <Item value="Map" priority="0" />
+      <Item value="habitat" priority="2" />
+      <Item value="newList" priority="0" />
+      <Item value="as" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:AnimalsAttack.Raven">
       <Item value="DocumentStore" priority="0" />
@@ -175,7 +187,8 @@
       <Item value="Query`2" priority="1" />
       <Item value="Store`0" priority="2" />
       <Item value="Load`1" priority="0" />
-      <Item value="SaveChanges`0" priority="0" />
+      <Item value="SaveChanges`0" priority="1" />
+      <Item value="Advanced" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:AnimalsAttack.Animal">
       <Item value="Status" priority="0" />
@@ -192,6 +205,7 @@
       <Item value="AsEnumerable`1" priority="0" />
       <Item value="Add`0" priority="0" />
       <Item value="Where`1" priority="0" />
+      <Item value="AddRange`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.HttpServerUtilityBase">
       <Item value="HtmlEncode`0" priority="0" />
@@ -237,7 +251,7 @@
     <ItemStatistics item="Qualified:Models.Animal">
       <Item value="Name" priority="0" />
       <Item value="Status" priority="1" />
-      <Item value="Habitat" priority="3" />
+      <Item value="Habitat" priority="5" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Web.Controllers.LocationCheckBox">
       <Item value="Name" priority="0" />
@@ -248,14 +262,19 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
       <Item value="ToList`1" priority="1" />
+      <Item value="Split`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Raven.Client.IDocumentStore">
-      <Item value="DatabaseCommands" priority="1" />
-      <Item value="OpenSession`0" priority="0" />
+      <Item value="DatabaseCommands" priority="7" />
+      <Item value="OpenSession`0" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Raven.Client.Connection.IDatabaseCommands">
       <Item value="Patch`0" priority="0" />
       <Item value="GetStatistics`0" priority="0" />
+      <Item value="ForDefaultDatabase`0" priority="0" />
+      <Item value="DeleteByIndex`0" priority="0" />
+      <Item value="PutIndex`2" priority="0" />
+      <Item value="GetIndex`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Raven.Abstractions.Data.PatchCommandType">
       <Item value="Copy" priority="0" />
@@ -269,6 +288,9 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@AnimalsAttack.Raven+RavenDataLoader">
       <Item value="LoadData`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Raven.Client.ISyncAdvancedSessionOperation">
+      <Item value="DatabaseCommands" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
