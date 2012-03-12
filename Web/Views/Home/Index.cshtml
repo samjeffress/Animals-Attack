@@ -1,7 +1,43 @@
 ﻿@{
     ViewBag.Title = "Index";
 }
-<link href='http://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css' />
+<link href="@Url.Content("~/Content/SmoothDivScroll/css/smoothDivScroll.css")" rel="stylesheet" type="text/css" />
+<script src="@Url.Content("~/Scripts/jquery-ui-1.8.11.js")" type="text/javascript" ></script>
+<!-- from http://www.smoothdivscroll.com/ -->
+<script src="@Url.Content("~/Scripts/jquery.smoothDivScroll-1.1.js")" type="text/javascript" ></script>
+
+
+<script type="text/javascript">
+    $(window).load(function () {
+        $("div#makeMeScrollable").smoothDivScroll({
+            autoScroll: "always",
+            autoScrollDirection: "backandforth",
+            autoScrollStep: 1,
+            autoScrollInterval: 15,
+            //startAtElementId: "1",
+            visibleHotSpots: "never"
+        });
+    });
+</script>
+
+	<style type="text/css">
+		#makeMeScrollable
+		{
+			width:50%;
+			height: 240px;
+			position: relative;
+		}
+		
+		#makeMeScrollable div.scrollableArea img
+		{
+			position: relative;
+			float: left;
+			margin: 0;
+			padding: 0;
+		}
+</style>
+	
 
 <h2 style="font-family: 'Alegreya SC', serif;">Animals Attack!</h2>
 <p>Ever had this happen to you? </br>
@@ -12,3 +48,16 @@
 <p>
 You're in luck, cause we want to help you get away from those animals on the attack!
 </p>
+
+<div id="makeMeScrollable">
+    <div class="scrollingHotSpotLeft"></div>
+    <div class="scrollingHotSpotRight"></div>
+    <div class="scrollWrapper">
+        <div class="scrollableArea">
+            @foreach (var image in ViewBag.Images)
+            {
+                @image;
+            }
+        </div>
+    </div>
+</div>

@@ -12,23 +12,21 @@
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:AnimalsAndVehicles.cs" caret="292" fromTop="11" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AccountController.cs" caret="1988" fromTop="12" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Helpers/f:LogonAuthorize.asax.cs" caret="0" fromTop="0" />
-      <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="185" fromTop="9" />
       <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:ItsRunning.cs" caret="0" fromTop="0" />
       <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Vehicle.cs" caret="162" fromTop="8" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:RavenController.cs" caret="102" fromTop="5" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Global.asax.cs" caret="2258" fromTop="16" />
       <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="3677" fromTop="22" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="317" fromTop="15" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Create.cshtml" caret="930" fromTop="11" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AdminController.cs" caret="343" fromTop="0" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Edit.cshtml" caret="970" fromTop="16" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Web.config" caret="792" fromTop="15" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="2809" fromTop="17" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="370" fromTop="17" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Edit.cshtml" caret="1262" fromTop="20" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="436" fromTop="18" />
     </RecentFiles>
     <RecentEdits>
-      <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="185" fromTop="9" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="1430" fromTop="13" />
-      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="568" fromTop="17" />
-      <File id="DF9C1427-539D-46A8-B248-D93C20F6001D/f:Raven.cs" caret="568" fromTop="13" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="3784" fromTop="12" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="3172" fromTop="4" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="3653" fromTop="9" />
@@ -50,11 +48,15 @@
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AdminController.cs" caret="6205" fromTop="27" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AdminController.cs" caret="3311" fromTop="25" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AdminController.cs" caret="633" fromTop="6" />
-      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="317" fromTop="15" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Edit.cshtml" caret="970" fromTop="16" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="2785" fromTop="18" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="2961" fromTop="26" />
       <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Controllers/f:AnimalsController.cs" caret="2959" fromTop="22" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/f:Web.config" caret="785" fromTop="15" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="501" fromTop="21" />
+      <File id="EF63DDD1-B3F4-4F08-8855-2C135BA417E1/d:Views/d:Animals/f:Index.cshtml" caret="370" fromTop="17" />
+      <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="220" fromTop="10" />
+      <File id="3FFF3458-8612-4D11-BEFE-466B8E9F5692/f:Animal.cs" caret="329" fromTop="15" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
