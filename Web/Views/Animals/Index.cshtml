@@ -13,8 +13,12 @@
     <tr>
         <td>@animal.Name</td>
         <td>
-            @foreach (var ahabitat in animal.Habitat){
-                <p>@ahabitat</p>
+            @if (animal.Habitat != null)
+            {
+                foreach (var ahabitat in animal.Habitat)
+                {
+                    <p>@ahabitat</p>
+                }
             }        
         </td>
         <td>@Html.Raw(animal.ImageAddress)</td>
