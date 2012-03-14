@@ -2,8 +2,9 @@
 [Dd]ebug*/
 [Rr]elease*/
 *.suo
+*.user
 
-_ReSharper*/
+_ReSharper*
 *.resharper
 *.dotCover
 [Tt]est[Rr]esult*
