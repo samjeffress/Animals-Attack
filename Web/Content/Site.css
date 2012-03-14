@@ -3,7 +3,8 @@ body
     font-size: .85em;
     font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
     color: #232323;
-    background-color: #fff;
+    background-color: Gray;
+    text-align:left;
 }
 
 header,
@@ -11,6 +12,17 @@ footer,
 nav,
 section {
     display: block;
+}
+
+.page
+{
+    width:75%;
+    border-style: solid;
+    border-width: thin;
+    border-color: Gray;
+    padding: 10px 20px 10px 20px;
+    margin: 0px auto;
+    background-color : White;
 }
 
 /* Styles for basic forms
@@ -72,4 +84,10 @@ textarea
 .validation-summary-valid
 {
     display: none;
+}
+
+
+h1
+{
+    font-family: 'Trade Winds'
 }
