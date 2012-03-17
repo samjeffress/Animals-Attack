@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+</head>
+
+<body>
+    <div class="page">
+        <header style="clear:right; height:60px;">
+            <div id="title" style="float:left; clear:both;">
+                <h1>Animals Attack On Your Mobile Browser!</h1>
+            </div>
+            <div id="logindisplay" style="float:right; clear:right; vertical-align:text-bottom; padding-top:10px;">
+                @Html.Partial("_LogOnPartial")
+            </div>
+        </header>
+        <section id="main">
+            @RenderBody()
+        </section>
+        <footer>
+        </footer>
+    </div>
+</body>
+</html>
