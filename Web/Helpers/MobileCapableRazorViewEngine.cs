@@ -52,10 +52,10 @@ namespace Microsoft.Web.Mvc
         private ViewEngineResult NewFindView(ControllerContext controllerContext, string viewName, string masterName,
                                              bool useCache, bool isPartialView)
         {
-            //if (!ContextCondition(controllerContext.HttpContext))
-            //{
-            //    return new ViewEngineResult(new string[] { }); // we found nothing and we pretend we looked nowhere
-            //}
+            if (!ContextCondition(controllerContext.HttpContext))
+            {
+                return new ViewEngineResult(new string[] { }); // we found nothing and we pretend we looked nowhere
+            }
 
             // Get the name of the controller from the path
             string controller = controllerContext.RouteData.Values["controller"].ToString();
