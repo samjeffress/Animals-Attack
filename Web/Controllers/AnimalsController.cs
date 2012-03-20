@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web.Mvc;
 using Models;
@@ -37,7 +38,6 @@ namespace Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(FormCollection collection)
         {
-            
             var animal = new Animal();
             //if (TryUpdateModel(animal, collection))
             //    throw new ArgumentException("Bad input");

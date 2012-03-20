@@ -90,6 +90,7 @@
     <Compile Include="Helpers\LogonAuthorize.asax.cs" />
     <Compile Include="Helpers\MobileCapableRazorViewEngine.cs" />
     <Compile Include="Helpers\MobileCapableWebFormViewEngine.cs" />
+    <Compile Include="Helpers\UserRoles.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

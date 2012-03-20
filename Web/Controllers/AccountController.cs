@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Linq;
 using System.Web.Mvc;
 using System.Web.Security;
 using Web.Helpers;
@@ -54,6 +57,29 @@ namespace Web.Controllers
         public ActionResult Register()
         {
             return View();
+        }
+
+        [AllowAnonymous]
+        public ActionResult SetupMasterOfTheUsers()
+        {
+            var masterUsers = ConfigurationManager.AppSettings["MasterOfTheUsers"];
+            var users = masterUsers.Split('|');
+            var usersLowerCased = users.Select(u => u.ToLower()).ToList();
+            var allRoles = new List<string>(Roles.GetAllRoles());
+            if (!allRoles.Contains(UserRoles.MasterOfTheEverything.ToString()))
+            {
+                Roles.CreateRole(UserRoles.MasterOfTheEverything.ToString());
+                Roles.AddUsersToRole(usersLowerCased.ToArray(), UserRoles.MasterOfTheEverything.ToString());
+            }
+            else
+            {
+                var usersInRole = new List<string>(Roles.GetUsersInRole(UserRoles.MasterOfTheEverything.ToString()));
+                foreach (var user in usersLowerCased.Where(user => !usersInRole.Contains(user)))
+                {
+                    Roles.AddUserToRole(user, UserRoles.MasterOfTheEverything.ToString());
+                }
+            }
+            return RedirectToAction("Index", "Animals");
         }
 
         [AllowAnonymous]
