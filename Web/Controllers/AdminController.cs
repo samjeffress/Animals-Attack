@@ -4,6 +4,7 @@ using System.Web.Mvc;
 using Models;
 using Raven.Abstractions.Data;
 using Raven.Abstractions.Indexing;
+using Web.Helpers;
 
 namespace Web.Controllers
 {
@@ -11,13 +12,20 @@ namespace Web.Controllers
     {
         public ActionResult RefreshData()
         {
-            CreateIndexes();
-            
-            DeleteDocuments();
+            if (User.IsInRole(UserRoles.MasterOfTheEverything.ToString()))
+            {
+                CreateIndexes();
 
-            CreateDocument();
+                DeleteDocuments();
 
-            return RedirectToAction("Index", "Home");
+                CreateDocument();
+
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                throw new ArgumentException("You are not able to process this action due to security restrictions.");
+            }
         }
 
         private void CreateDocument()
