@@ -1,0 +1,25 @@
+﻿@model MembershipUserCollection
+
+
+@{
+    ViewBag.Title = "User List";
+}
+
+<h2>User List</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Username</th><th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+@foreach (MembershipUser user in Model)
+{ 
+    <tr>
+        <td>@user.UserName</td>
+        <td>@user.Email</td>
+    </tr>
+}
+    </tbody>
+</table>
+</ul>

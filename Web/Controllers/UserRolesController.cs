@@ -6,13 +6,11 @@ namespace Web.Controllers
 {
     public class UserRolesController : Controller
     {
-        //public ActionResult Index()
-        //{
-        //    var membershipUserCollection = Membership.GetAllUsers();
-        //    membershipUserCollection
-
-        //    return View();
-        //}
+        public ActionResult Index()
+        {
+            var users = Membership.GetAllUsers();
+            return View(users);
+        }
 
     }
 }

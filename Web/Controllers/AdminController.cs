@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
 using Models;
 using Raven.Abstractions.Data;
@@ -22,10 +21,9 @@ namespace Web.Controllers
 
                 return RedirectToAction("Index", "Home");
             }
-            else
-            {
-                throw new ArgumentException("You are not able to process this action due to security restrictions.");
-            }
+
+            ViewBag.ErrorMessage = "You are not able to refresh the data due to you not being master of everything. Sorry.";
+            return View("Error");
         }
 
         private void CreateDocument()
