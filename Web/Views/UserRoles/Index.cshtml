@@ -1,4 +1,4 @@
-﻿@model MembershipUserCollection
+﻿@model List<Web.Models.UserAndRoles>
 
 
 @{
@@ -9,15 +9,22 @@
 <table>
     <thead>
     <tr>
-        <th>Username</th><th>Email</th>
+        <th>Username</th><th>Email</th><th>Roles</th>
     </tr>
     </thead>
     <tbody>
-@foreach (MembershipUser user in Model)
+@foreach (var user in Model)
 { 
     <tr>
-        <td>@user.UserName</td>
+        <td>@user.Username</td>
         <td>@user.Email</td>
+        <td>
+            @(user.Roles.Count > 0 ? user.Roles.Aggregate((current, next) => current + ", " + next) : "Got Nothin.")
+            @*@foreach (var role in user.Roles)
+            {
+                role;
+            }*@
+        </td>
     </tr>
 }
     </tbody>

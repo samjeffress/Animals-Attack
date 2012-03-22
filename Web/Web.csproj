@@ -80,6 +80,7 @@
     <Compile Include="App_Start\MobileViewEnginesBootstrapper.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Models\UserAndRoles.cs" />
     <Compile Include="Controllers\UserRolesController.cs" />
     <Compile Include="Helpers\AllowAnonymousAttribute.cs" />
     <Compile Include="Controllers\AnimalsController.cs" />
