@@ -9,7 +9,7 @@
 <table>
     <thead>
     <tr>
-        <th>Username</th><th>Email</th><th>Roles</th>
+        <th>Username</th><th>Email</th><th>Roles</th><th></th>
     </tr>
     </thead>
     <tbody>
@@ -20,10 +20,9 @@
         <td>@user.Email</td>
         <td>
             @(user.Roles.Count > 0 ? user.Roles.Aggregate((current, next) => current + ", " + next) : "Got Nothin.")
-            @*@foreach (var role in user.Roles)
-            {
-                role;
-            }*@
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { userName = user.Username })
         </td>
     </tr>
 }
